@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+
+  <title>Ordex — Информация и поддержка</title>
+  <meta name="description"
+        content="Официальные документы и поддержка Ordex.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #080d17;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+      padding: 65px 24px 35px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 52px;
+    }
+
+    .logo {
+      width: 74px;
+      height: 74px;
+      border-radius: 20px;
+      background: #112a43;
+      color: #149bff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      letter-spacing: -1px;
+    }
+
+    .subtitle {
+      color: #97a5b7;
+      font-size: 14px;
+      margin-top: 7px;
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .description {
+      color: #97a5b7;
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .links {
+      display: grid;
+      gap: 13px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 20px;
+      background: #152032;
+      border: 1px solid #243248;
+      border-radius: 16px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .link:hover {
+      background: #20314a;
+    }
+
+    .link-icon {
+      color: #149bff;
+      font-size: 25px;
+      width: 30px;
+      text-align: center;
+    }
+
+    .link-title {
+      flex: 1;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .arrow {
+      color: #8293a8;
+      font-size: 22px;
+    }
+
+    footer {
+      margin-top: 55px;
+      color: #77869b;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding-top: 45px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .link {
+        padding: 20px 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <div class="brand">
+      <div class="logo">◈</div>
+      <div>
+        <h1>Ordex</h1>
+        <div class="subtitle">
+          Управление сборкой и закупкой заказов
+        </div>
+      </div>
+    </div>
+
+    <h2>Информация и поддержка</h2>
+
+    <p class="description">
+      Официальные документы сервиса Ordex.
+      Здесь вы можете ознакомиться с условиями
+      использования, политикой конфиденциальности
+      и связаться с поддержкой.
+    </p>
+
+    <nav class="links">
+
+      <a class="link" href="privacy.html">
+        <span class="link-icon">◇</span>
+        <span class="link-title">
+          Политика конфиденциальности
+        </span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="terms.html">
+        <span class="link-icon">▤</span>
+        <span class="link-title">
+          Условия использования
+        </span>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link" href="support.html">
+        <span class="link-icon">✉</span>
+        <span class="link-title">
+          Поддержка
+        </span>
+        <span class="arrow">›</span>
+      </a>
+
+    </nav>
+
+    <footer>
+      © 2026 Ordex. Все права защищены.
+    </footer>
+
+  </main>
+</body>
+</html>
